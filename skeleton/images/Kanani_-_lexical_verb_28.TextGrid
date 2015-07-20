@@ -1,0 +1,204 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.0115922455921145 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "word" 
+        xmin = 0 
+        xmax = 3.0115922455921145 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17932898634092306 
+            text = "" 
+        intervals [2]:
+            xmin = 0.17932898634092306 
+            xmax = 0.5593607445668078 
+            text = "everyone" 
+        intervals [3]:
+            xmin = 0.5593607445668078 
+            xmax = 0.8089200781557702 
+            text = "thinks" 
+        intervals [4]:
+            xmin = 0.8089200781557702 
+            xmax = 1.1717197676570537 
+            text = "it's cool" 
+        intervals [5]:
+            xmin = 1.1717197676570537 
+            xmax = 1.2934144334463593 
+            text = "I" 
+        intervals [6]:
+            xmin = 1.2934144334463593 
+            xmax = 1.4477815461695662 
+            text = "don't" 
+        intervals [7]:
+            xmin = 1.4477815461695662 
+            xmax = 1.6729002522242429 
+            text = "like-nog" 
+        intervals [8]:
+            xmin = 1.6729002522242429 
+            xmax = 1.8308478005470292 
+            text = "it" 
+        intervals [9]:
+            xmin = 1.8308478005470292 
+            xmax = 2.625545565389421 
+            text = "'cause" 
+        intervals [10]:
+            xmin = 2.625545565389421 
+            xmax = 3.0115922455921145 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phoneme" 
+        xmin = 0 
+        xmax = 3.0115922455921145 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17932898634092306 
+            text = "" 
+        intervals [2]:
+            xmin = 0.17932898634092306 
+            xmax = 0.5593607445668078 
+            text = "" 
+        intervals [3]:
+            xmin = 0.5593607445668078 
+            xmax = 0.8089200781557702 
+            text = "" 
+        intervals [4]:
+            xmin = 0.8089200781557702 
+            xmax = 1.1717197676570537 
+            text = "" 
+        intervals [5]:
+            xmin = 1.1717197676570537 
+            xmax = 1.2934144334463593 
+            text = "" 
+        intervals [6]:
+            xmin = 1.2934144334463593 
+            xmax = 1.406850872341443 
+            text = "" 
+        intervals [7]:
+            xmin = 1.406850872341443 
+            xmax = 1.4477815461695662 
+            text = "n" 
+        intervals [8]:
+            xmin = 1.4477815461695662 
+            xmax = 1.4910511156450106 
+            text = "l" 
+        intervals [9]:
+            xmin = 1.4910511156450106 
+            xmax = 1.5635568807119713 
+            text = "ai" 
+        intervals [10]:
+            xmin = 1.5635568807119713 
+            xmax = 1.6729002522242429 
+            text = "k" 
+        intervals [11]:
+            xmin = 1.6729002522242429 
+            xmax = 1.7518379803213373 
+            text = "KIT" 
+        intervals [12]:
+            xmin = 1.7518379803213373 
+            xmax = 1.8308478005470292 
+            text = "" 
+        intervals [13]:
+            xmin = 1.8308478005470292 
+            xmax = 2.625545565389421 
+            text = "" 
+        intervals [14]:
+            xmin = 2.625545565389421 
+            xmax = 3.0115922455921145 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phonetic" 
+        xmin = 0 
+        xmax = 3.0115922455921145 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.17932898634092306 
+            text = "" 
+        intervals [2]:
+            xmin = 0.17932898634092306 
+            xmax = 0.5593607445668078 
+            text = "" 
+        intervals [3]:
+            xmin = 0.5593607445668078 
+            xmax = 0.8089200781557702 
+            text = "" 
+        intervals [4]:
+            xmin = 0.8089200781557702 
+            xmax = 1.1717197676570537 
+            text = "" 
+        intervals [5]:
+            xmin = 1.1717197676570537 
+            xmax = 1.2934144334463593 
+            text = "" 
+        intervals [6]:
+            xmin = 1.2934144334463593 
+            xmax = 1.406850872341443 
+            text = "" 
+        intervals [7]:
+            xmin = 1.406850872341443 
+            xmax = 1.4477815461695662 
+            text = "" 
+        intervals [8]:
+            xmin = 1.4477815461695662 
+            xmax = 1.4910511156450106 
+            text = "" 
+        intervals [9]:
+            xmin = 1.4910511156450106 
+            xmax = 1.5273039981784908 
+            text = "nuc" 
+        intervals [10]:
+            xmin = 1.5273039981784908 
+            xmax = 1.5635568807119713 
+            text = "off" 
+        intervals [11]:
+            xmin = 1.5635568807119713 
+            xmax = 1.6477571240155386 
+            text = "clos" 
+        intervals [12]:
+            xmin = 1.6477571240155386 
+            xmax = 1.6729002522242429 
+            text = "rel" 
+        intervals [13]:
+            xmin = 1.6729002522242429 
+            xmax = 1.7518379803213373 
+            text = "" 
+        intervals [14]:
+            xmin = 1.7518379803213373 
+            xmax = 1.8308478005470292 
+            text = "" 
+        intervals [15]:
+            xmin = 1.8308478005470292 
+            xmax = 2.625545565389421 
+            text = "" 
+        intervals [16]:
+            xmin = 2.625545565389421 
+            xmax = 3.0115922455921145 
+            text = "" 
+    item [4]:
+        class = "TextTier" 
+        name = "target" 
+        xmin = 0 
+        xmax = 3.0115922455921145 
+        points: size = 4 
+        points [1]:
+            time = 1.465323263524476 
+            mark = "lt" 
+        points [2]:
+            time = 1.5161942438537146 
+            mark = "at" 
+        points [3]:
+            time = 1.5536165742108556 
+            mark = "it" 
+        points [4]:
+            time = 1.5588790894173286 
+            mark = "kt" 
