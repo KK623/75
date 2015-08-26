@@ -57,12 +57,15 @@
 %%%             Chapters                         %%%
 %%%                                              %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\include{chapters/litrev}
-\include{chapters/ethno}
-\include{chapters/prod} 
-\include{chapters/perc} 
-\include{chapters/disc}
-\include{chapters/concl}
+
+ 
+\newcommand{\chpath}{chapters} %chapters|indexed
+\include{\chpath/litrev}
+\include{\chpath/ethno}
+\include{\chpath/prod} 
+\include{\chpath/perc} 
+\include{\chpath/disc}
+\include{\chpath/concl}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%                                              %%%
@@ -70,16 +73,16 @@
 %%%                                              %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \appendix
-\include{appendix1}
+\include{appendices/appendix1}
 \newpage
 \thispagestyle{empty}
 \mbox{}
-\include{appendix2}
-\include{appendix3}
+\include{appendices/appendix2}
+\include{appendices/appendix3}
 \newpage
 \thispagestyle{empty}
 \mbox{}
-\include{appendix4}
+\include{appendices/appendix4}
 % There is normally no need to change the backmatter section
 \input{backmatter.tex}
 \end{document} 

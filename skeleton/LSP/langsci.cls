@@ -531,20 +531,20 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 }%
 \fi
 
-\newcommand{\ia}[1]{\if@noftnote%
+\newcommand{\ia}[1]{%\if@noftnote%
 \index{#1}%
-\else%
-\index{#1|fn{\thefootnote}}%
-\fi%
+% \else%
+% \index{#1|fn{\thefootnote}}%
+% \fi%
 }
 
-\newcommand{\is}[1]{\if@noftnote%
+\newcommand{\is}[1]{%\if@noftnote%
 \index[sbj]{#1}%
-\else%
-% irgendwie muss man ihn dazu bringen den Wert für footnote auch einzusetzen
-\index[sbj]{#1|fn{*}}%
-%\indexftn{#1}{\value{footnotemark}}%
-\fi%
+% \else%
+% % irgendwie muss man ihn dazu bringen den Wert für footnote auch einzusetzen
+% \index[sbj]{#1|fn{*}}%
+% %\indexftn{#1}{\value{footnotemark}}%
+% \fi%
 }
 
 \newcommand{\isfeat}[1]{\if@noftnote%
@@ -574,11 +574,11 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 % \index[lan] für Einträge in separaten Index
 
 \newcommand{\il}[1]{%
-\if@noftnote%
+% \if@noftnote%
 \index[lan]{#1}%
-\else%
-\index[lan]{#1|fn{*}}%
-\fi%
+% \else%
+% \index[lan]{#1|fn{*}}%
+% \fi%
 }
 
 % index entries for words
@@ -594,6 +594,18 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 % \iflsDraft
 %   \usepackage{showidx} 	% Doesn't work with multiple indexes?
 % \fi
+
+% \iflsShowIndex	% shows index commands in text
+% 	\usepackage{soul}
+% 	\usepackage[textwidth=2cm
+% 		]{todonotes}
+% 	\usepackage[noadjust]{marginnote}
+% 	\renewcommand{\marginpar}{\marginnote}
+% 	\let\isold\is 
+% 	\renewcommand{\isi}[1]{\sethlcolor{green}\hl{#1}\isold{#1}}
+% 	\renewcommand{\is}[1]{\todo[color=green,size=\scriptsize]{\tiny#1}\isold{#1}}
+% \fi
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1476,16 +1488,6 @@ guarantee the accuracy of such information thereafter.
 
 	% remember to use [htp] or [htpb] for placement
 
-\iflsShowIndex	% shows index commands in text
-	\usepackage{soul}
-	\usepackage[textwidth=2cm
-		]{todonotes}
-	\usepackage[noadjust]{marginnote}
-	\renewcommand{\marginpar}{\marginnote}
-	\let\isold\is 
-	\renewcommand{\isi}[1]{\sethlcolor{green}\hl{#1}\isold{#1}}
-	\renewcommand{\is}[1]{\todo[color=green,size=\scriptsize]{\tiny#1}\isold{#1}}
-\fi
 
 
 \endinput
